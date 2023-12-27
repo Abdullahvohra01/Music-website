@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #66666679;
+}
+
+.job label{
+    padding:50px 10px ;
+    width: 50px;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    
+}
+
+.apply-box{
+    max-width: 700px;
+    padding: 20px ;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 180px;
+    height: 630px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 6px #666666e0;
+  
+}
+.flex{
+  display: flex;
+}
+
+.text-left{
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+.text-left h4{
+    font-weight: 500;
+}
+
+.jobs{
+    margin-right: 10px;
+}
+
+#cursorsss{
+    padding: 8px 10px;
+    margin-left: 60px;
+    width: 200px;
+
+}
+.cur{
+    margin-top: 30px;
+}
+
+#cursorss{
+
+}
+
+
+#lab{
+
+margin-bottom: 30px;
+}
+
+.text-left input{
+    margin-top: 5px;
+    margin-left: 14px;
+   padding: 8px 30px;
+   width: 250px;
+     
+}
+
+input,select,textarea{
+    padding: 5px 8px;
+    border: 2px solid #666;
+    border-radius: 5px;
+
+
+}
+h4{
+    border-color: red;
+}
+ textarea:hover{
+    border-color: red;
+
+}
+select:hover{
+    border-color: red;
+
+}
+
+input:hover{
+    border-color: red;
+}
+
+
+
+
+
+
+/* 
+input,select,textarea:hover
+{
+border-color: black ;
+} */
+
+.jobs label{
+ 
+    margin-left: 10px;
+}
+
+.text-right{
+    
+ 
+
+}
+
+.space{
+    margin-top: 20px;
+}
+
+.sppace{
+    margin-top: 20px;
+}
+
+
+.adress {
+  width: 450px7;
+  margin-top: 56px;
+ 
+  
+}
+#cv{
+    border-color: #66666674;
+    border-radius: 6px;
+    margin-left: 48px;
+}
+
+
+#adr{
+    margin-left: 30px;
+   padding-bottom: 60px;
+}
+
+.button button {
+    margin-top: 30px;
+    margin-left: 564px;
+    padding: 6px 10px;
+    background-color: red;
+    color: white;
+    border-color: transparent 1px solid; 
+    border-radius: 6px;
+   
+
+   
+}
+
+button:hover{
+ background-color: #ccccccb4;
+ border-color: 2px solid black;
+ transition: 0.7s ease-out;
+ color: black;
+ cursor: pointer;
+
+}
+button{
+    transition: 0.5s ease-in;
+}
+
+ @media(max-width:450px){
+    .adress {
+        grid-column:1/span 1;
+    }
+ }
